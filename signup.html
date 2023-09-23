@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Custome stylesheet-->
+    <link rel="stylesheet" href="./style.css">
+      <!--iconcount cdn stylesheet-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,800;0,900;1,400&display=swap" rel="stylesheet">
+    <title>Responsive My Website</title>
+</head>
+<body>
+<section class="form_section">
+    <div class="container form_section-container">
+        <h2>Sign Up</h2>
+        <div class="alert_message error">
+        <p>This is an error message</p>
+    </div>
+    <form action="" enctype="multipart/form-data">
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+        <input type="text" placeholder="Username" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Create Password"required>
+        <input type="password" placeholder="Confirm Password" required>
+        <div class="form_control">
+            <label for="avatar">User Avatar</label>
+            <input type="file" id="avatar">
+        </div>
+        <button type="submit" class="btn">Sign Up</button>
+        <small>Already have an account? <a href="signin.html">Sign Up</a></small>
+    </form>
+</section>
+</body>
+</html>

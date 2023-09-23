@@ -1,0 +1,24 @@
+@media only screen and (min-width: 460px) {
+  selector .mc4wp-form-fields{
+      position: relative;
+  }
+  selector .mc4wp-form-fields p:last-child{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      
+  }
+}
+@media only screen and (max-width: 467px){
+  selector .mc4wp-form input[type="submit"]{
+      max-width:none;
+  }
+  selector .mc4wp-form-input[type="email"]{
+      height: 50px;
+      padding-right:25px;
+  }
+  selector .mc4wp-form-input[type="email"]{
+    padding-left: 25px;
+  }
+      
+  }
